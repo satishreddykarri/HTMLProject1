@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html project 1</title>
+</head>
+<style>
+    body {
+
+        margin: 0px;
+        padding: 0px;
+        background: url('https://res.cloudinary.com/drf5zyysx/image/upload/v1711334572/9ef6436039e36756cb65019cb8135c0b_cknzij.jpg');
+        background-size: 1800px 1200px;
+
+        .left {
+            color: white;
+            
+            position: absolute;
+            left: 34px;
+            top: 20px;
+
+        }
+
+        .left img {
+            width: 122px;
+            height: 90px;
+            filter: invert(100%);
+        }
+        
+
+        .left div {
+            text-align: center;
+        }
+
+        .middle {
+            display: block;
+            width: 33%;
+            margin: 20px auto;
+            color: white;
+            
+
+        }
+
+        .right {
+            position: absolute;
+            right: 34px;
+            top: 20px;
+            display: inline-block;
+            color: white;
+            
+
+        }
+
+        .navbar {
+            display: inline-block;
+
+        }
+
+        .navbar li {
+
+            display: inline-block;
+            font-size: 20px;
+
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+            padding: 34px 13px;
+
+        }
+
+        .navbar li a:hover,
+        .navbar li a.active {
+            text-decoration: underline;
+            color: gray;
+
+        }
+
+        .btn {
+            margin: 0px 9px;
+            background-color: black;
+            color: white;
+            padding: 4px 14px;
+            border: 2px solid gray;
+            border-radius: 10px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: white;
+            color: black;
+        }
+
+        .container {
+           
+            color: aliceblue;
+            margin: 106px 80px;
+            padding: 75px;
+            width: 33%;
+            border-radius: 28px;
+        }
+
+        .form-group input {
+            text-align: center;
+            display: block;
+
+            padding: 1px;
+            border: 2px solid black;
+            margin: 8px auto;
+            font-size: 15px;
+            border-radius: 5px;
+        }
+
+        .container button {
+            display: block;
+            width: 20%;
+            margin: 10px auto;
+        }
+    }
+</style>
+
+<body>
+    
+    
+    <header class="header">
+        <div class="left">
+          
+            <img src="https://res.cloudinary.com/drf5zyysx/image/upload/c_crop,ar_4:3/v1711334336/fitness-logo-vector-symbol-icon-600w-1926906863_insvap.webp" alt="">
+            <div>Satish Fitness</div>
+
+
+
+        </div>
+        <div class="middle">
+
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Contact us</a></li>
+                <li><a href="#">Services</a></li>
+            </ul>
+
+
+        </div>
+        <div class="right">
+            <button class="btn">Call us now</button>
+            <button class="btn">Email us</button>
+
+
+        </div>
+        <div class="container">
+            <h1>Join our gym now</h1>
+            <form action="noaction.php">
+                <div class="form-group">
+                    <input type="text"  placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <input type="text"  placeholder="Enter your age">
+                </div>
+                <div class="form-group">
+                    <input type="text"  placeholder="Enter your gender">
+                </div>
+                <div class="form-group">
+                    <input type="text"  placeholder="Enter your locality">
+                </div>
+                <button class="btn">submit</button>
+            </form>
+        </div>
+    </header>
+
+</body>
+
+</html>
